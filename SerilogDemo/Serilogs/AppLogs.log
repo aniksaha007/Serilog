@@ -1,0 +1,46 @@
+2021-11-20 03:42:26.120 +06:00 [INF] Now listening on: https://localhost:5001
+2021-11-20 03:42:26.214 +06:00 [INF] Now listening on: http://localhost:5000
+2021-11-20 03:42:26.219 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-20 03:42:26.232 +06:00 [INF] Hosting environment: Development
+2021-11-20 03:42:26.244 +06:00 [INF] Content root path: D:\OneDrive - American International University-Bangladesh\aniks.xyz\Serilog\Project\SerilogDemo\SerilogDemo
+2021-11-20 03:42:27.124 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-20 03:42:27.312 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 193.4254ms
+2021-11-20 03:42:27.547 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-20 03:42:27.703 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.7515ms
+2021-11-20 03:51:19.114 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Math?a=5&b=0 - -
+2021-11-20 03:51:19.165 +06:00 [INF] Executing endpoint 'SerilogDemo.Controllers.MathController.Divide (SerilogDemo)'
+2021-11-20 03:51:19.201 +06:00 [INF] Route matched with {action = "Divide", controller = "Math"}. Executing controller action with signature System.Decimal Divide(System.Decimal, System.Decimal) on controller SerilogDemo.Controllers.MathController (SerilogDemo).
+2021-11-20 03:51:19.315 +06:00 [INF] Error in Divide Method - Value of a is 5
+2021-11-20 03:51:19.322 +06:00 [INF] Error in Divide Method - Value of b is 0
+2021-11-20 03:51:19.326 +06:00 [ERR] Error in Divide Method
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at SerilogDemo.Controllers.MathController.Divide(Decimal a, Decimal b) in D:\OneDrive - American International University-Bangladesh\aniks.xyz\Serilog\Project\SerilogDemo\SerilogDemo\Controllers\MathController.cs:line 27
+2021-11-20 03:51:19.405 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal'.
+2021-11-20 03:51:19.424 +06:00 [INF] Executed action SerilogDemo.Controllers.MathController.Divide (SerilogDemo) in 209.2517ms
+2021-11-20 03:51:19.428 +06:00 [INF] Executed endpoint 'SerilogDemo.Controllers.MathController.Divide (SerilogDemo)'
+2021-11-20 03:51:19.432 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Math?a=5&b=0 - - - 200 - application/json;+charset=utf-8 317.5859ms
+2021-11-20 03:54:41.110 +06:00 [INF] Now listening on: https://localhost:5001
+2021-11-20 03:54:41.164 +06:00 [INF] Now listening on: http://localhost:5000
+2021-11-20 03:54:41.166 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-20 03:54:41.167 +06:00 [INF] Hosting environment: Development
+2021-11-20 03:54:41.169 +06:00 [INF] Content root path: D:\OneDrive - American International University-Bangladesh\aniks.xyz\Serilog\Project\SerilogDemo\SerilogDemo
+2021-11-20 03:54:42.265 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-20 03:54:42.500 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 239.1874ms
+2021-11-20 03:54:42.703 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-20 03:54:42.830 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.3410ms
+2021-11-20 03:55:01.131 +06:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Math?a=5&b=0 - -
+2021-11-20 03:55:01.183 +06:00 [INF] Executing endpoint 'SerilogDemo.Controllers.MathController.Divide (SerilogDemo)'
+2021-11-20 03:55:01.226 +06:00 [INF] Route matched with {action = "Divide", controller = "Math"}. Executing controller action with signature System.Decimal Divide(System.Decimal, System.Decimal) on controller SerilogDemo.Controllers.MathController (SerilogDemo).
+2021-11-20 03:55:01.334 +06:00 [INF] Error in Divide Method - Value of a is 5
+2021-11-20 03:55:01.342 +06:00 [INF] Error in Divide Method - Value of b is 0
+2021-11-20 03:55:01.344 +06:00 [ERR] Error in Divide Method
+System.DivideByZeroException: Attempted to divide by zero.
+   at System.Decimal.DecCalc.VarDecDiv(DecCalc& d1, DecCalc& d2)
+   at System.Decimal.op_Division(Decimal d1, Decimal d2)
+   at SerilogDemo.Controllers.MathController.Divide(Decimal a, Decimal b) in D:\OneDrive - American International University-Bangladesh\aniks.xyz\Serilog\Project\SerilogDemo\SerilogDemo\Controllers\MathController.cs:line 27
+2021-11-20 03:55:01.426 +06:00 [INF] Executing ObjectResult, writing value of type 'System.Decimal'.
+2021-11-20 03:55:01.444 +06:00 [INF] Executed action SerilogDemo.Controllers.MathController.Divide (SerilogDemo) in 202.8386ms
+2021-11-20 03:55:01.449 +06:00 [INF] Executed endpoint 'SerilogDemo.Controllers.MathController.Divide (SerilogDemo)'
+2021-11-20 03:55:01.454 +06:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Math?a=5&b=0 - - - 200 - application/json;+charset=utf-8 322.6384ms
